@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en ">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
+    <title>Fruit Burst</title>
     <!--tailwind and daisy ui-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -36,12 +36,140 @@
 
 <body>
     <header>
-
-        
+        <nav class="max-w-screen-xl mx-auto mt-8">
+            <div class="navbar bg-[#F85559] text-white rounded-full ">
+                <div class="navbar-start">
+                   
+                    <ul class="navs flex justify-between items-center w-7/12 ps-6">
+                        <li><a class="cursor-pointer">Home</a></li>
+                        <li><a class="cursor-pointer">About Us</a></li>
+                        <li><a class="cursor-pointer">Shop</a></li>
+                        <li><a class="cursor-pointer">All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-center btn btn-ghost rounded-full">
+                    <div class="h-12">
+                        <img class="h-full" src="./images/logo.png" alt="">
+                    </div>
+                    <a class=" text-xl">Fruit Burst</a>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                    
+                </div>
+            </div>
+        </nav>
     </header>
-   
     <main>
+        <!--Deal of the day-->      
 
+<section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+<div class="flex flex-col md:flex-row gap-20">
+    <!--heading-->
+<div class="flex-1 ">
+<h1 class="font-extrabold">Deal of the day</h1>
+<p class="text-slate-400">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+</div>
+<!--countdown-->
+
+<div class="">
+    <div class="grid grid-flow-col gap-5 text-center capitalize auto-cols-max">
+        <div class="flex flex-col">
+          <span class="countdown font-extrabold text-5xl">
+            <span style="--value:29;"></span>
+          </span>
+          Days
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-extrabold text-5xl">
+            <span style="--value:15;"></span>
+          </span>
+          Hours
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-extrabold text-5xl">
+            <span style="--value:25;"></span>
+          </span>
+          minutes
+        </div> 
+        <div class="flex flex-col">
+          <span class="countdown font-extrabold text-5xl">
+            <span style="--value:08;"></span>
+          </span>
+          Second
+        </div>
+    </div>
+</div>
+</div>
+<!---->
+</div>
+</section>
+
+
+<section>
+<!-- Deals section -->
+<section class="container mx-auto">
+    <div class="flex flex-col lg:flex-row justify-between items-center">
+      <div class="text-center lg:text-left">
+        <h3 class="text-5xl font-black pb-4 text-[#121212]">Deal of the day</h3>
+        <p class="text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a
+          piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+      </div>
+      <div>
+        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:15;"></span>
+            </span>
+            days
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:10;"></span>
+            </span>
+            hours
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:24;"></span>
+            </span>
+            min
+          </div>
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:46;"></span>
+            </span>
+            sec
+          </div>
+        </div>
+      </div>
+    </div>
+<!--card section-->
+
+<div class="flex flex-col mt-5 lg:flex-row gap-5">
+    <div class="card lg:w-96 bg-base-100 shadow-xl lg:mt-12 border-2">
+      <figure><img src="./images/fruit6.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
+      <div class="card-body">
+        <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
+        <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
+        <p class="text-center mb-6">Apple</p>
+        <div class="rating justify-center mb-8">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <a href="" class="text-center text-[#F85559] font-bold">Details</a>
+      </div>
+    </div>
+</section>
     </main>
     <footer>
 
