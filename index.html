@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en ">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
     <!--tailwind and daisy ui-->
+
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 <!--font awesome-->
+
 <script src="https://kit.fontawesome.com/97d26928ea.js" crossorigin="anonymous"></script>
+
 <!--tailwind custom color-->
 <script>
     tailwind.config = {
@@ -108,76 +111,85 @@
     </div>
     </section>
 <!--card section-1-->
-<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-<div class="flex flex-col mt-5 lg:flex-row gap-5">
-    <div class="card w-96 bg-base-100 shadow-xl lg:mt-12 border-2">
-      <figure><img src="./images/fruit6.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
-      <div class="card-body">
-        <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
-        <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
-        <p class="text-center mb-6">Apple</p>
-        <div class="rating justify-center mb-8">
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-        </div>
-        <a href="" class="text-center text-[#F85559] font-bold">Details</a>
+
+<div class=" grid grid-col mt-5 md:grid-cols-2 lg:grid-cols-4 gap-6">
+  <!--card-1-->
+  <div class="card bg-base-100 shadow-xl lg:mt-12 border-2">
+    <figure><img src="./images/fruit6.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
+    <div class="card-body">
+      <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
+      <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
+      <p class="text-center mb-6">Apple</p>
+      <div class="rating justify-center mb-8">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
       </div>
-      <!--card-2-->
-    <div class="card  w-96 bg-base-100 shadow-xl lg:mt-12 border-2">
-      <figure><img src="./images/fruit7.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
-      <div class="card-body">
-        <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
-        <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
-        <p class="text-center mb-6">Orange</p>
-        <div class="rating justify-center mb-8">
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-        </div>
-        <a href="" class="text-center text-[#F85559] font-bold">Details</a>
-      </div>
-      <!--card-3-->
-    <div class="card w-96 bg-base-100 shadow-xl lg:mt-12 border-2">
-      <figure><img src="./images/fruit8.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
-      <div class="card-body">
-        <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
-        <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
-        <p class="text-center mb-6">Red Dragon</p>
-        <div class="rating justify-center mb-8">
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-        </div>
-        <a href="" class="text-center text-[#F85559] font-bold">Details</a>
-      </div>
-      <!--card-3-->
-    <div class="card  w-96 bg-base-100 shadow-xl lg:mt-12 border-2">
-      <figure><img src="./images/fruit9.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
-      <div class="card-body">
-        <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
-        <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
-        <p class="text-center mb-6">Banana</p>
-        <div class="rating justify-center mb-8">
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
-        </div>
-        <a href="" class="text-center text-[#F85559] font-bold">Details</a>
-      </div>
+      <a href="" class="text-center text-[#F85559] font-bold">Details</a>
     </div>
-</section>
+  </div>
+  <!--card-2-->
+  <div class="card bg-base-100 shadow-xl lg:mt-12 border-2">
+    <figure><img src="./images/fruit7.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
+    <div class="card-body">
+      <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
+      <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
+      <p class="text-center mb-6">Orange</p>
+      <div class="rating justify-center mb-8">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <a href="" class="text-center text-[#F85559] font-bold">Details</a>
+    </div>
+  </div>
+  <!--card-3-->
+  <div class="card bg-base-100 shadow-xl lg:mt-12 border-2">
+    <figure><img src="./images/fruit8.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
+    <div class="card-body">
+      <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
+      <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
+      <p class="text-center mb-6">Red Dragon</p>
+      <div class="rating justify-center mb-8">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <a href="" class="text-center text-[#F85559] font-bold">Details</a>
+    </div>
+  </div>
+  <!--card-4-->
+  <div class="card bg-base-100 shadow-xl lg:mt-12 border-2">
+    <figure><img src="./images/fruit9.png" alt="Shoes" class="lg:px-36 py-12" /></figure>
+    <div class="card-body">
+      <h2 class=" text-center text-2xl font-bold">12.90$ - 18.85$</h2>
+      <div class="border-solid border  border-[#1212121A] rounded-full-lg"></div>
+      <p class="text-center mb-6">Banana</p>
+      <div class="rating justify-center mb-8">
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+      </div>
+      <a href="" class="text-center text-[#F85559] font-bold">Details</a>
+    </div>
+  </div>
+</div>
+<div class="flex justify-center items-center mt-12">
+  <button class="btn bg-[#F85559] rounded-lg text-white">Shop All</button>
+</div>
 </section>
     </main>
                 <!--footer section-->
+
+
 <section  class="footer footer-center p-10 bg-[#121212] text-base-content rounded text-white">
     <footer>
       <div>
