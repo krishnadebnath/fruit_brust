@@ -42,7 +42,7 @@
 <nav class="container mx-auto ">
   <div class="navbar lg:bg-[#F85559] rounded-full my-12 flex justify-between px-14 py-6">
     <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
+      <ul class="menu menu-horizontal px-1 text-white text text-18">
         <li><a>Home</a></li>
         <li><a>About US</a></li>
         <li><a>Shop</a></li>
@@ -57,7 +57,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
           </svg>
         </label>
-        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 ">
           <li><a>Home</a></li>
           <li><a>About US</a></li>
           <li><a>Shop</a></li>
@@ -146,10 +146,8 @@
 </section>
 
 <!-- Fruits wrap section -->
- 
-<section>
   <div
-    class="relative hidden lg:flex justify-around items-center text-center bg-white w-3/4 mx-auto bottom-20 rounded-lg box-shadow p-6 ">
+    class="absolute hidden lg:flex z-20 justify-center -bottom-20 left-56 p-6 rounded-xl bg-white text-center space-x-8 ">
     <div class="image-container">
       <img src="./images/fruit1.png" alt="">
       <h3 class="text-center mt-2 font-bold">Berry</h3>
@@ -171,7 +169,6 @@
       <h3 class="text-center mt-2 font-bold">Pomegranate</h3>
     </div>
   </div>
-</section>
 
 <!--Deal of the day-->      
 
@@ -187,21 +184,21 @@
       <div class="grid grid-flow-col gap-5 text-center auto-cols-max text-extabold">
         <div class="flex flex-col">
           <span class="countdown font-mono text-5xl">
-            <span style="--value:15;"></span><i class="fa-solid fa-ellipsis-vertical"></i>
+            <span style="--value:15;"></span>:
           </span>
           Days 
         </div>
         <div class="flex flex-col">
           <span class="countdown font-mono text-5xl">
-            <span style="--value:10;"></span><i class="fa-solid fa-ellipsis-vertical"></i>
+            <span style="--value:10;"></span>:
           </span>
           Hours
         </div>
         <div class="flex flex-col">
           <span class="countdown font-mono text-5xl">
-            <span style="--value:24;"></span><i class="fa-solid fa-ellipsis-vertical"></i>
+            <span style="--value:24;"> </span>:
           </span>
-          Minines
+          Minites
         </div>
         <div class="flex flex-col">
           <span class="countdown font-mono text-5xl">
@@ -495,7 +492,8 @@
       <p class="text-pera font-medium leading-6 my-4">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
   </div>
   <div class="w-[80%] lg:w-full mx-auto space-y-4 lg:space-y-0 grid gird-col-1 mt-14 md:grid-cols-2 lg:grid-cols-3">
-      <!-- col 1 -->
+
+      <!-- column 1 -->
       <div class="space-y-10">
           <div class="flex flex-col md:flex-row gap-5">
               <div class="bg-slate-400 w-[60px] h-[60] rounded-full">
@@ -540,12 +538,12 @@
           </div>
       </div>
 
-      <!-- col 2 -->
+      <!-- column 2 -->
       <div class="order-first md:order-2 lg:order-2">
           <img src="./images/col2.png" alt="">
       </div>
 
-      <!-- col 3 -->
+      <!-- column 3 -->
       <div class="space-y-10 lg:order-last">
           <div class="flex flex-col md:flex-row gap-5">  
               <div class="flex flex-col justify-end items-end text-right">
